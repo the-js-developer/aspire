@@ -1,0 +1,28 @@
+// app global css in SCSS form
+.text-heading {
+    color : #222222;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+    .p-none {
+        padding: 0 !important;
+    }
+    .mobile-p-15 {
+        padding: 15px !important;
+    }
+    .mobile-background {
+        background-color: $primary !important;
+    }
+    .mobile-text {
+        color: #fff !important;
+    }
+    .mobile-pt {
+        padding-top: 20px;
+    }
+    .mobile-py {
+        padding: 0 15px;
+    }
+
+}
+
